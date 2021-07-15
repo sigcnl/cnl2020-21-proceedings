@@ -1,1 +1,9 @@
 /dropbox
+*.aux
+*.bbl
+*.blg
+*.log
+*.idx
+*.out
+*.toc
+*.synctex.gz

@@ -1,0 +1,14 @@
+\newcommand\invisiblesection[1]{%
+  \refstepcounter{section}%
+  \addcontentsline{toc}{section}{#1}%
+  \sectionmark{#1}}
+
+\refstepcounter{chapter}
+\addcontentsline{toc}{chapter}{Full Papers}
+\sectionmark{Full Papers}
+
+\invisiblesection{foo}
+\includepdf[pages=-,pagecommand={}]{../cdrom/pdf/2021.cnl-1.1.pdf}
+
+\invisiblesection{foo2}
+\includepdf[pages=-,pagecommand={}]{../cdrom/pdf/2021.cnl-1.2.pdf}
