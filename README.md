@@ -1,7 +1,7 @@
 Proceedings of CNL 2020/21
 ==========================
 
-Papers:
+Full papers:
 
 - 2021.cnl-1.1 Jahchan et al.
 - 2021.cnl-1.2 Masciolini & Ranta
@@ -11,3 +11,18 @@ Papers:
 - 2021.cnl-1.6 Cursius
 - 2021.cnl-1.7 Fuchs (inertia)
 - 2021.cnl-1.8 Fuchs (mathematical)
+- 2021.cnl-1.9 Wilmont et al.
+- 2021.cnl-1.10 Listenmaa et al.
+- 2021.cnl-1.11 Antia & Keet
+
+Short papers:
+
+- 2021.cnl-1.12 Salam et al.
+- 2021.cnl-1.13 Rutledge & Italiaander
+- 2021.cnl-1.14 Lengeling
+- 2021.cnl-1.15 Byamugisha & Khalo
+- 2021.cnl-1.16 Hsiao
+
+Merge PDFs:
+
+$ pdftk cdrom/pdf/2021.cnl-1.*.pdf cat output cdrom/cnl-2021.pdf
