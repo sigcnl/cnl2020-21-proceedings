@@ -23,6 +23,3 @@ Short papers:
 - 2021.cnl-1.15 Byamugisha & Khalo
 - 2021.cnl-1.16 Hsiao
 
-Merge PDFs:
-
-$ pdftk cdrom/pdf/2021.cnl-1.*.pdf cat output cdrom/cnl-2021.pdf

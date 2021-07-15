@@ -14,12 +14,12 @@
 \usepackage{pdfpages}   % can also use [draft] option
 \usepackage[colorlinks,
 %%% EDIT TITLE: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-            pdftitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-            pdfauthor={Association for Computational Linguistics},
+            pdftitle={Proceedings of the Seventh International Workshop on Controlled Natural Language},
+            pdfauthor={Special Interest Group on Controlled Natural Language},
             %pdfsubject={...},
             %pdfkeywords={...}
            ]{hyperref}   % hyperlinked table of contents, etc.
-\hypersetup{plainpages=false,colorlinks=true}  % point to papers, not preface
+\hypersetup{plainpages=false,colorlinks=true,linkcolor={black}}  % point to papers, not preface
 
 % for A4 size %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setlength{\paperwidth}{21cm}   % A4
@@ -113,11 +113,11 @@
 
 % -------- END MATTER: AUTHOR INDEX --------
 
-\ifthenelse{\equal{\draftflag}{1}}{}{
-  \ifthenelse{\isodd{\value{page}}}{}
-    {\newpage \thispagestyle{empty} \phantom{.}}
-  \pagestyle{empty}
-  \printindex
-}
+%\ifthenelse{\equal{\draftflag}{1}}{}{
+%  \ifthenelse{\isodd{\value{page}}}{}
+%    {\newpage \thispagestyle{empty} \phantom{.}}
+%  \pagestyle{empty}
+%  \printindex
+%}
 
 \end{document}
